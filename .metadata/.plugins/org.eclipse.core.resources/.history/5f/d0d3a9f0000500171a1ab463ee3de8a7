@@ -1,0 +1,17 @@
+package Forniture;
+
+public class Main {
+
+	public static void main(String[] args) {
+		model sofa = new Sofa("Sofa", true);
+		model wardarobe = new wardrobe("WardRobe", false);
+		sofa.assemble();
+		if (sofa.isAssemble() == true) {
+
+		}
+		if (wardarobe.isAssemble() == true) {
+
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package Flowers;
+
+public class WhiteRose extends model {
+
+	public WhiteRose() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public WhiteRose(String flower, int countFlowers) {
+		super(flower, countFlowers);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

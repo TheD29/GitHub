@@ -1,0 +1,10 @@
+package Object;
+
+public class Dispatcher {
+
+	public static void main(String[] args) {
+		model model = new model("The", "Dima");
+		System.out.println();
+	}
+
+}

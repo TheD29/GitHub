@@ -1,0 +1,22 @@
+package Flowers;
+
+public class model {
+	protected String flower;
+	protected int countFlowers;
+	private int sum;
+
+	public model() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public model(String flower, int countFlowers) {
+		super();
+		this.flower = flower;
+		this.countFlowers = countFlowers;
+	}
+
+	public int getSum() {
+		return sum;
+	}
+
+}

@@ -1,0 +1,12 @@
+package L4;
+
+public class ArrayDemensionLeft {
+
+	public static void main(String[] args) {
+		int n = 2;
+		int array[][] = { { 2, 4, 5, 3 }, { 3, 8, 10, 1 }, { 7, 9, 6, 32 }, { 22, 31, 50, 60 } };
+		int val = 0;
+		int val2 = 0;
+	}
+
+}

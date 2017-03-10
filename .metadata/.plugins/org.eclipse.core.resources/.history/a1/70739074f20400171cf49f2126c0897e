@@ -1,0 +1,24 @@
+package Flowers;
+
+public class main {
+	static model[] autos = new model[] { new Rose("Rose", 11, 15.2), new BlueRose("BlueRose", 3, 16),
+			new WhiteRose("WhiteRose", 10, 11.3) };
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double sum = 0;
+		int indexMin = 0;
+		for (int i = 0; i < autos.length; i++) {
+			model model = autos[i];
+			for (int j = 0; j < autos.length; j++) {
+
+			}
+			sum += autos[i].getSum();
+			System.out.println(autos[i].getFlower() + ' ' + autos[i].getSum());
+			// System.out.println(m[i].getBouquet());
+
+		}
+		System.out.println("Вартість букету складає: " + sum);
+	}
+
+}

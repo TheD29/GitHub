@@ -1,0 +1,11 @@
+package Forniture;
+
+import java.util.concurrent.FutureTask;
+
+public abstract class Sofa extends model {
+
+	public Sofa() {
+
+	}
+
+}

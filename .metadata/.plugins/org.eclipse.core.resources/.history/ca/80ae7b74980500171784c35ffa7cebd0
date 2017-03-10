@@ -1,0 +1,22 @@
+package TestProject;
+
+public class Controller extends Auto {
+	Auto auto;
+	static Auto[] autos = new Auto[] { new Train(150, "Train"), new Car(4, "Car"), new AirBuss(300, "AirBuss"),
+			new miniBuss(8, "miniBuss"), new Buss(18, "Buss"), new BigBuss(55, "BigBuss") };
+
+
+	public Controller() {
+
+	}
+
+	public Controller(int place, String name) {
+		super(place, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+	public void number () {
+		
+	}
+}

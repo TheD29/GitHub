@@ -1,0 +1,18 @@
+package Object;
+
+public class AnimalDispatcher {
+
+	public static void main(String[] args) {
+		Animal animal = new Animal();
+		// animal.move();
+		Animal animal2 = new Dog("Rex", 10);
+		// animal2.move();
+		System.out.println(animal2.getName() + ' ' + animal2.getAge());
+
+		Animal animal3 = new Bierd();
+		// animal3.move();
+		
+		System.out.println(animal2 instanceof Dog);
+	}
+
+}

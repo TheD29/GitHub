@@ -1,0 +1,14 @@
+package Primitive;
+
+public class MainPrimitive {
+
+	public static void main(String[] args) {
+		PrimitiveMet pm =  new PrimitiveMet();
+		
+		int i = 5;
+		int j = 10;
+		
+		System.out.println("i = " + i + " j= " + j);
+	}
+
+}

@@ -1,0 +1,22 @@
+package Flowers;
+
+public class model {
+	private int rose;
+	private int tulip;
+	private int whiteRose;
+	private int blueRose;
+	private int sum;
+
+	public model() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public model(int rose, int tulip, int whiteRose, int blueRose) {
+		super();
+		this.rose = rose;
+		this.tulip = tulip;
+		this.whiteRose = whiteRose;
+		this.blueRose = blueRose;
+	}
+
+}

@@ -1,0 +1,12 @@
+package Flowers;
+
+public class model {
+	protected String flower;
+	protected int countFlowers;
+	private int sum;
+
+	public model() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,14 @@
+package L3;
+
+public class Cicles {
+
+	public static void main(String[] args) {
+		for (int i = 1; i < 5; i++) {
+			for (int j = 0; j < 3; j++) {
+				System.out.println("day " + i + " eat " + j);
+			}
+		}
+
+	}
+
+}

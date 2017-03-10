@@ -1,0 +1,12 @@
+package L4;
+
+public class DemancionsArrayMaxElement {
+
+	public static void main(String[] args) {
+		int array[][] = { { 2, 4, 7 }, { 4, 10, 11 }, { 15, 1, 10 } };
+		int max = 0;
+		int min = 0;
+
+	}
+
+}

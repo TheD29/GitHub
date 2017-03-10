@@ -1,0 +1,11 @@
+package Primitive;
+
+public class PrimitiveMet {
+	int i;
+	int j;
+
+	public void meth(int i, int j) {
+		i += j;
+	}
+
+}

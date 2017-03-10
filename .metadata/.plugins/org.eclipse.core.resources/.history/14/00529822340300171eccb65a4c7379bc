@@ -1,0 +1,58 @@
+package Flowers;
+
+public class model {
+	private int rose;
+	private int tulip;
+	private int whiteRose;
+	private int blueRose;
+	private int sum;
+
+	public model() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public model(int rose, int tulip, int whiteRose, int blueRose) {
+		super();
+		this.rose = rose;
+		this.tulip = tulip;
+		this.whiteRose = whiteRose;
+		this.blueRose = blueRose;
+	}
+
+	public void setBlueRose(int blueRose) {
+		this.blueRose = blueRose;
+	}
+
+	public void setTulip(int tulip) {
+		this.tulip = tulip;
+	}
+
+	public void setWhiteRose(int whiteRose) {
+		this.whiteRose = whiteRose;
+	}
+
+	public void setRose(int rose) {
+		this.rose = rose;
+	}
+
+	public int getBlueRose() {
+		return blueRose;
+	}
+
+	public int getRose() {
+		return rose;
+	}
+
+	public int getTulip() {
+		return tulip;
+	}
+
+	public int getWhiteRose() {
+		return whiteRose;
+	}
+
+	public int getSum() {
+		return sum = getBlueRose() + getWhiteRose() + getTulip();
+	}
+
+}

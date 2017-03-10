@@ -1,0 +1,34 @@
+package TestProject;
+
+public class mainAuto {
+	static Auto[] autos = new Auto[] { new Train(55, "Train"), new Car(4, "Car"), new BigBuss(18, "BigBuss"),
+			new miniBuss(8, "miniBuss"), new Buss(12, "Buss") };
+
+	public static void main(String[] args) {
+		int people = 10;
+
+		int len = autos.length;
+		for (int k = 0; k < len; k++)
+			for (int i = 0; i < len; i++) {
+				for (int j = 0; j < autos.length - 1; j++) {
+					if (autos[i].getPlace() > autos[i].getPlace() + 1) {
+						Auto temp = autos[i];
+						autos[i] = autos[i + 1];
+						autos[i + 1] = temp;
+
+					}
+					System.out.println(autos[j]);
+				}
+
+			}
+
+		/*
+		 * if (autos.getPlace() >= people) System.out.println(car.getName());
+		 * else if (miniBuss.getPlace() >= people)
+		 * System.out.println(miniBuss.getName()); else if (buss.getPlace() >=
+		 * people) System.out.println(buss.getName());
+		 */
+
+	}
+
+}

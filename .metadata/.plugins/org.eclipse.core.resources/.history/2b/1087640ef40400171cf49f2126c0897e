@@ -1,0 +1,35 @@
+package TestProject;
+
+public class Avto {
+	static Avto2[] autos = new Avto2[] { new Car(4, "Car"), new miniBuss(8, "miniBuss"), new Buss(12, "Buss") };
+
+	public static void main(String[] args) {
+		int people = 10;
+		/*
+		 * Avto2 car = new Car(4, "CAR"); miniBuss miniBuss = new miniBuss(8,
+		 * "MiniBuss"); Buss buss = new Buss(12, "Buss");
+		 */
+		int indexMin = 0;
+		for (int i = 0; i < autos.length; i++) {
+			Avto2 auto = autos[i];
+			for (int j = i; j < autos[i].length; j++) {
+				if (autos[j].getPlace() < auto.getPlace()) {
+					auto = autos[j];
+					indexMin = j;
+				}
+			}
+			autos[indexMin] = autos[i];
+			if (autos[i].getPlace() >= people)
+				System.err.println(autos[i].getName());
+		}
+
+		/*
+		 * if (autos.getPlace() >= people) System.out.println(car.getName());
+		 * else if (miniBuss.getPlace() >= people)
+		 * System.out.println(miniBuss.getName()); else if (buss.getPlace() >=
+		 * people) System.out.println(buss.getName());
+		 */
+
+	}
+
+}

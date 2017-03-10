@@ -1,0 +1,12 @@
+package L4;
+
+public class DemensionArray2 {
+
+	public static void main(String[] args) {
+		int array[][] =  {{1,2,3,5},
+							{5,4,6,3},
+							{10,5,12,7}};
+
+	}
+
+}

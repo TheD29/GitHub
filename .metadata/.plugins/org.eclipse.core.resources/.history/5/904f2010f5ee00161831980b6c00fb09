@@ -1,0 +1,13 @@
+package L3;
+
+public class Cicles {
+
+	public static void main(String[] args) {
+		int
+		for (int i = 0; i<=8; i++) {
+			System.out.println(i);
+		}
+
+	}
+
+}

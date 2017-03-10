@@ -1,0 +1,27 @@
+package test;
+
+public class twoDemancionsArray {
+
+	public static void main(String[] args) {
+		int chng = 2;
+		int array[] = { 1, 2, 45, 69, 18 };
+		int temp[] = new int [5];
+		int var = 0;
+		int var2 = 0;
+		for (int i = 0; i < chng; i++) {
+			 var = array[0];
+			 array[0] = array[array.length-1];
+			 
+			for (int j = 0; j < array.length-1; j++) {
+				 var2 =array[j+1];
+				 array[j+1] = var;
+			}
+			System.out.print(array[i] + "\t");
+			
+		}
+		
+		System.out.println();
+		
+	}
+
+}

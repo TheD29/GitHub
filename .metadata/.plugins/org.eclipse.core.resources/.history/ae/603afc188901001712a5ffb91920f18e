@@ -1,0 +1,13 @@
+package Object;
+
+public class model {
+	private String lastName;
+	private String firstName;
+
+	public model(String lastName, String firstName) {
+		super();
+		this.lastName = lastName;
+		this.firstName = firstName;
+	}
+
+}

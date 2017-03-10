@@ -1,0 +1,20 @@
+package L4;
+
+public class DemensionsArray {
+
+	public static void main(String[] args) {
+		int len = 1;
+		int val = 0;
+		int val2 = 0;
+		int n = 5;
+		int array[][] = new int [n][n];
+		for (int i = 0; i < array.length; i++) {
+			for (int j = 0; j < array.length; j++) {
+				array[i][j] = i*j;
+				System.out.println(array[i][j]);
+			}
+		}
+
+	}
+
+}

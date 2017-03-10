@@ -1,0 +1,23 @@
+package test;
+
+public class arraay_operation2 {
+	public static void main(String[] args) {
+		// операції з масивами (копіювання, багатовимірні масиви)
+		// додавання двох масивів одникової довжини
+		int[] arrNum = { 1, 10, 25 };
+		int[] arrNum2 = { 5, 8, -3 };
+		int result[] = new int[3];
+		for (int i = 0; i < arrNum.length; i++) {
+			result[i] = arrNum[i] + arrNum2[i];
+			// System.out.println(result[i]);
+		}
+		// ****************************************************************
+		int[] arL = { 1, 2, 3, 45, 6, 78 };
+		int[] arS = { 4, 7, 8, 10 };
+		int[] res = new int[arL.length + arS.length];
+
+		System.arraycopy(arL, 0, res, 6, arL.length);
+		System.out.println(res);
+	}
+
+}

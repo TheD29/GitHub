@@ -1,0 +1,14 @@
+package Forniture;
+
+public abstract class model {
+	private String name;
+
+	public model(String name) {
+		this.name = name;
+	}
+
+	public abstract void assemble();
+
+	public abstract void disassemble();
+
+}

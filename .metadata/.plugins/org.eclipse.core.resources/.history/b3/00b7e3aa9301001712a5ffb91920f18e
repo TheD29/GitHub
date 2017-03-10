@@ -1,0 +1,9 @@
+package Object;
+
+public class AnimalDispatcher {
+
+	public static void main(String[] args) {
+
+	}
+
+}

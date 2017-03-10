@@ -1,0 +1,17 @@
+package Calendar;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class BirthMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GregorianCalendar gregorianCalendar = new GregorianCalendar();
+		
+		gregorianCalendar.set(Calendar.MONTH, 12);
+		System.out.println("ПН ВТ СР ЧТ ПТ СБ НД");
+
+	}
+
+}

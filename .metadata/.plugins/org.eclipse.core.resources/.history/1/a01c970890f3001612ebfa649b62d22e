@@ -1,0 +1,10 @@
+package OOPS;
+
+public class FiClass {
+	double width;
+	double height;
+	double depth;
+
+	void vol() {
+	}
+}

@@ -1,0 +1,16 @@
+package test;
+
+public class arraay_operation2 {
+
+	public static void main(String[] args) {
+		// операції з масивами (копіювання, багатовимірні масиви)
+		int[] arrNum = { 1, 10, 25};
+		int[] arrNum2 = {5,8,-3};
+		int result[] = new int[3];
+		for (int i = 0; i < arrNum.length; i++) {
+			result[i] = arrNum[i] + arrNum2[i];
+			System.out.println(result[i]);
+		}
+	}
+
+}

@@ -1,0 +1,6 @@
+package Forniture;
+
+public abstract class model {
+
+	public abstract void assemble();
+}

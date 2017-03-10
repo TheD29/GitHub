@@ -1,0 +1,10 @@
+package Forniture;
+
+public class Main {
+
+	public static void main(String[] args) {
+		model model = new Sofa("Sofa");
+		model.assemble();
+	}
+
+}

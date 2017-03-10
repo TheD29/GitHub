@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="test.Switch"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.ImplicitActivationPolicyOperations"/>
+<fullyQualifiedTypeName name="HomeWork.Firstcomputer"/>
+<fullyQualifiedTypeName name="Courses_OOP.Model"/>
+<fullyQualifiedTypeName name="Courses_OOP.MyModel"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.MediaSize.NA"/>
+<fullyQualifiedTypeName name="HomeWork.ArrayUpMeth"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction"/>
+<fullyQualifiedTypeName name="MVC.ControllerMVC"/>
+<fullyQualifiedTypeName name="MVC.viewMVC"/>
+<fullyQualifiedTypeName name="javax.swing.text.View"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="MVC.arrModel"/>
+<fullyQualifiedTypeName name="MVC.arrController"/>
+<fullyQualifiedTypeName name="MVC.arrView"/>
+<fullyQualifiedTypeName name="MVC.Fraction"/>
+<fullyQualifiedTypeName name="MVC.Controller"/>
+<fullyQualifiedTypeName name="Calendar.Calendar"/>
+<fullyQualifiedTypeName name="java.security.PublicKey"/>
+<fullyQualifiedTypeName name="GCMVC.Conroller"/>
+<fullyQualifiedTypeName name="java.nio.channels.CancelledKeyException"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="GCMVC.View"/>
+<fullyQualifiedTypeName name="GCMVC.Model"/>
+<fullyQualifiedTypeName name="MVC.View"/>
+<fullyQualifiedTypeName name="MVC.modelMVC"/>
+<fullyQualifiedTypeName name="arrayMVC.Controller"/>
+<fullyQualifiedTypeName name="arrayMVC.Model"/>
+<fullyQualifiedTypeName name="java.lang.SecurityException"/>
+<fullyQualifiedTypeName name="TestProject.Controll"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="TestProject.Car"/>
+<fullyQualifiedTypeName name="TestProject.Buss"/>
+<fullyQualifiedTypeName name="TestProject.Avto"/>
+<fullyQualifiedTypeName name="TestProject.miniBuss"/>
+<fullyQualifiedTypeName name="Flowers.model"/>
+<fullyQualifiedTypeName name="TestProject.Avto2"/>
+<fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+<fullyQualifiedTypeName name="Object.Animal"/>
+<fullyQualifiedTypeName name="Object.Dog"/>
+</qualifiedTypeNameHistroy>

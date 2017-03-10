@@ -1,0 +1,9 @@
+package Forniture;
+
+public class wardrobe {
+
+	public wardrobe() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

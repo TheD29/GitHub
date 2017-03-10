@@ -1,0 +1,9 @@
+package Forniture;
+
+public class Sofa {
+
+	public Sofa() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

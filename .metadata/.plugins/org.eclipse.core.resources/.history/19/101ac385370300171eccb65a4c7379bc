@@ -1,0 +1,16 @@
+package Flowers;
+
+public class main {
+	static model[] m = new model[] { new Rose("Rose", 1, 15.2), new BlueRose("BlueRose", 3, 16),
+			new WhiteRose("WhiteRose", 10, 11.3) };
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for (int i = 0; i < m.length; i++) {
+
+		}
+
+	}
+
+}

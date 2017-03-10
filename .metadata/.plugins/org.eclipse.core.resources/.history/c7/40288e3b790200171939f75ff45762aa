@@ -1,0 +1,11 @@
+package Calc;
+
+public class CalcDispetcher {
+
+	public static void main(String[] args) {
+		CModel cModel = new CModel(15.5, 25);
+		cModel.add();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Forniture;
+
+public class Controller {
+	model model;
+
+	public Controller(model model) {
+		this.model = model;
+	}
+
+	public String master() {
+		if (model instanceof Sofa) {
+			System.out.println();
+		}
+	}
+
+}

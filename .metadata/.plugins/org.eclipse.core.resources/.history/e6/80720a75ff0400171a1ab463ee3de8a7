@@ -1,0 +1,20 @@
+package Forniture;
+
+public class wardrobe extends model {
+
+	public wardrobe(String name) {
+		super(name);
+	}
+
+	@Override
+	public void assemble() {
+		System.out.println("Assemble wardrobe");
+
+	}
+
+	@Override
+	public void disassemble() {
+		System.out.println("Disamble wardrobe");
+	}
+
+}

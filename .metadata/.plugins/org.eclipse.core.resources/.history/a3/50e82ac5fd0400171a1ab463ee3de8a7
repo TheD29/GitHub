@@ -1,0 +1,12 @@
+package Forniture;
+
+public abstract class wardrobe extends model {
+
+	public wardrobe(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

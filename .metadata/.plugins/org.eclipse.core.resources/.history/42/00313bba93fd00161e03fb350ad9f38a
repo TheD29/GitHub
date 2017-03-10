@@ -1,0 +1,22 @@
+package Calendar;
+
+import java.time.temporal.WeekFields;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+public class BirthMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GregorianCalendar gregorianCalendar = new GregorianCalendar();
+		
+		int birthDay = 29;
+		gregorianCalendar.set(Calendar.DECEMBER, 12);
+		int month = gregorianCalendar.get(Calendar.DECEMBER);
+		gregorianCalendar.set(Calendar.DAY_OF_MONTH, 1);
+		System.out.println("ПН ВТ СР ЧТ ПТ СБ НД");
+		System.out.println(month);
+
+	}
+
+}

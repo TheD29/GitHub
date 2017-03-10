@@ -1,0 +1,14 @@
+package Calc;
+
+public class CalcDispetcher {
+
+	public static void main(String[] args) {
+		CModel cModel = new CModel(15.5, 25);
+		Add add = new Add(15.5, 25);
+		Div div = new Div(15, 3);
+		System.out.println("Додавання " + cModel.operation());
+		System.out.println("Множення " + add.operation());
+
+	}
+
+}

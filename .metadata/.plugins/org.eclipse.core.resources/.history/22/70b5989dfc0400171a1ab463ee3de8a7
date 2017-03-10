@@ -1,0 +1,5 @@
+package Forniture;
+
+public abstract class model {
+
+}

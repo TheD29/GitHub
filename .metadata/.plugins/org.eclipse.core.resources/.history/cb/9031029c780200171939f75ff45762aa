@@ -1,0 +1,42 @@
+package Calc;
+
+public class CModel {
+	private double fnum;
+	private double lnum;
+	private double sum;
+
+	public CModel() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public CModel(double fnum, double lnum) {
+		super();
+		this.fnum = fnum;
+		this.lnum = lnum;
+	}
+
+	public double getFnum() {
+		return fnum;
+	}
+
+	public double getLnum() {
+		return lnum;
+	}
+
+	public void setFnum(double fnum) {
+		this.fnum = fnum;
+	}
+
+	public void setLnum(double lnum) {
+		this.lnum = lnum;
+	}
+
+	public double getSum() {
+		return sum;
+	}
+
+	public void setSum(double sum) {
+		this.sum = sum;
+	}
+
+}

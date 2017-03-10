@@ -1,0 +1,20 @@
+package test;
+
+public class while_doWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n = 10;
+		while (n > 0) {
+			System.out.println(n);
+			n--;
+		}
+		
+		int t = 0;
+		while (++t<10){
+			System.out.println(t);
+		} 
+
+	}
+
+}

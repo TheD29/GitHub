@@ -1,0 +1,9 @@
+package L4;
+
+public class DemensionArrayArifmetic {
+
+	public static void main(String[] args) {
+		// Середнє ариметичне кожного рядка багатовимірного масиву
+	}
+
+}

@@ -1,0 +1,15 @@
+package TestProject;
+
+public class Controller extends Auto {
+
+	public Controller() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Controller(int place, String name) {
+		super(place, name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

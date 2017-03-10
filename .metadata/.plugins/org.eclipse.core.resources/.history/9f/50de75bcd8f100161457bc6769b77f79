@@ -1,0 +1,27 @@
+package test;
+
+public class twoDemancionsArray {
+
+	public static void main(String[] args) {
+		// Объявим коснтанту для размера массива
+		int SIZE = 10;
+		// Создаем двумерный массив
+		int[][] graph = new int[3][5];
+
+		// Цикл по первой размерности (первые квадратные скобки)
+		for (int i = 0; i < 3; i++) {
+			// Цикл по второй размерности (вторые квадратные скобки)
+			for (int j = 0; j < 5; j++) {
+				graph[i][j] = (i + 1) * (j + 1);
+			}
+		}
+			 for (int[] is : graph) {
+				System.out.println(is);
+			}
+			// Переход на следующую строку
+			System.out.println();
+
+		}
+
+	}
+}

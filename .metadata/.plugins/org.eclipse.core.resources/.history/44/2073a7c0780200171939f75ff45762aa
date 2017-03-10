@@ -1,0 +1,8 @@
+package Calc;
+
+public class Add extends CModel {
+	
+	public Add(int fnum, int lnum) {
+		
+	}
+}

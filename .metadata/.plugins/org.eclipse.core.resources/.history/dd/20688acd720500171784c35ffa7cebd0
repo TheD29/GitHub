@@ -1,0 +1,15 @@
+package TestProject;
+
+public class mainAuto {
+	static Auto[] autos = new Auto[] { new BigBuss(18, "BigBuss"), new Car(4, "Car"), new miniBuss(8, "miniBuss"),
+			new Buss(12, "Buss") };
+
+	public static void main(String[] args) {
+		int people = 10;
+		int max = autos[0];
+		for (int i = 0; i < autos.length; i++) {
+
+		}
+	}
+
+}

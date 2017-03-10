@@ -1,0 +1,34 @@
+package Object;
+
+public class Animal {
+	private  String name;// Ключове слово final означає що значення змінної
+								// не можна змінити після її ініціалізації
+	private int age;
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
+	public Animal(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	
+
+	public int getAge() {
+		return age;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void move() {
+		System.out.println("move");
+	}
+
+	/*
+	 * public void setName() { final String s; s = "ssssss"; // s = "asdas"; не
+	 * можна переініцілізувати змінну }
+	 */
+}

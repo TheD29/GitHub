@@ -1,0 +1,10 @@
+package TestProject;
+
+public class Train extends Auto {
+
+	public Train(int p, String n) {
+		super(p, n);
+		// TODO Auto-generated constructor stub
+	}
+
+}
