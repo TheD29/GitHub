@@ -1,0 +1,10 @@
+package transport;
+
+public interface CargoAuto {
+	int someFields = 200;
+
+	void transportCargo();
+
+	void someFields();
+
+}

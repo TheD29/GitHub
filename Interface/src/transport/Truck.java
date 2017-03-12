@@ -1,0 +1,13 @@
+package transport;
+
+public class Truck implements CargoAuto {
+	@Override
+	public void transportCargo() {
+		System.out.println("Перевезення вантажу");
+	}
+
+	@Override
+	public void someFields() {
+	}
+
+}
