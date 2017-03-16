@@ -1,0 +1,13 @@
+package Autorithation;
+
+import Autorithation.user.qwerty;
+
+public class Dispatcher {
+
+	public static void main(String[] args) {
+		user user = new user();
+		qwerty qwerty = user.createQuerty();
+
+	}
+
+}

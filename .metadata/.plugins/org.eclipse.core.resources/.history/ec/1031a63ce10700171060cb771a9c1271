@@ -1,0 +1,40 @@
+package AutoProject;
+
+public abstract class Mashine implements AutoModel {
+	private int place;
+	private String name;
+
+	public Mashine() {
+	}
+
+	public Mashine(int place, String name) {
+		this.place = place;
+		this.name = name;
+	}
+
+	@Override
+	public void mashineParam() {
+		System.out.println("К-сть місць: " + getPlace() + ' ' + "Вид Авто" + getName());
+	}
+
+	@Override
+	public void move() {
+		System.out.println(name + "Їде по дорозі");
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setPlace(int place) {
+		this.place = place;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getPlace() {
+		return place;
+	}
+}

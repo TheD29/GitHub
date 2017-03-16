@@ -1,0 +1,13 @@
+package Local;
+
+public class LocalOuterClass {
+
+	public void getLocalClass() {
+		class LocalClass {
+			void someMethod() {
+				System.out.println("local some method");
+			}
+		}
+	}
+
+}

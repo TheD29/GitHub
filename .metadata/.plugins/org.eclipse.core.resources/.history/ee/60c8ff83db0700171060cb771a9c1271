@@ -1,0 +1,6 @@
+package AutoProject;
+
+public interface Auto {
+
+	void move();
+}

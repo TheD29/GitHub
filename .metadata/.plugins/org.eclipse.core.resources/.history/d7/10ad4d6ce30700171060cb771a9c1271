@@ -1,0 +1,9 @@
+package AutoProject;
+
+public interface AutoModel {
+	public void mashineParam();
+
+	public void move();
+
+	public double TrunkCapaCity(double luggage, int place);
+}

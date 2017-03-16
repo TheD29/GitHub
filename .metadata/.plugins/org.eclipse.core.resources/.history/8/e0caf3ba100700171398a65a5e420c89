@@ -1,0 +1,8 @@
+package Inter;
+
+public class Dog implements Animal {
+	private void move() {
+		// TODO Auto-generated method stub
+		System.out.println("run");
+	}
+}

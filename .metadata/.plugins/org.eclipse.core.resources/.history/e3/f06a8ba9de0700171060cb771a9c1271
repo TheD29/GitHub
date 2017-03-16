@@ -1,0 +1,7 @@
+package AutoProject;
+
+public interface AutoModel {
+	public void autoParam();
+
+	public void move();
+}

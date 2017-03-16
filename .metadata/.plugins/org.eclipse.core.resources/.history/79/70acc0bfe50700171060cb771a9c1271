@@ -1,0 +1,5 @@
+package AutoProject;
+
+public class BigBuss extends Mashine {
+
+}

@@ -1,0 +1,7 @@
+package AutoProject;
+
+public class Buss extends AutoModel {
+	public Buss(int place, String name) {
+		super(place, name);
+	}
+}

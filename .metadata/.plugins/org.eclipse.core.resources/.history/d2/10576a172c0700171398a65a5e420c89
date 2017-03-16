@@ -1,0 +1,11 @@
+package Autorithation;
+
+public class Dispatcher {
+
+	public static void main(String[] args) {
+		user user = new user();
+		user.qwerty qwerty = user.createQuerty();
+
+	}
+
+}

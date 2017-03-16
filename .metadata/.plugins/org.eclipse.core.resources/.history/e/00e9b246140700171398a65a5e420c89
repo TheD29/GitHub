@@ -1,0 +1,10 @@
+package Inter;
+
+public interface Animal extends Creature {
+	final static String name = "Animal";
+
+	@Override
+	default void move() {
+		System.out.println("daskda;lskd;laskdkas;lk");
+	}
+}

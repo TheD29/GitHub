@@ -1,0 +1,13 @@
+package InClassses;
+
+public class Dispatcher {
+
+	public static void main(String[] args) {
+		OuterClass outerClass = new OuterClass();
+		OuterClass.innerClass innerClass = outerClass.new innerClass();
+		innerClass.print();
+		OuterClass.innerClass class1 = new OuterClass().new innerClass();
+		
+	}
+
+}

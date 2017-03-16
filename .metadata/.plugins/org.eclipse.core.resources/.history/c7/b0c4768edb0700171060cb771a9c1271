@@ -1,0 +1,10 @@
+package AutoProject;
+
+public class Car implements Auto {
+	private int place;
+	private String name;
+
+	@Override
+	public void move() {
+	}
+}

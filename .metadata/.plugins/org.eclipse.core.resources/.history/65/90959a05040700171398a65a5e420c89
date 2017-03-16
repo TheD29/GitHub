@@ -1,0 +1,9 @@
+package TestProject;
+
+public class Controller extends Auto {
+	Auto auto;
+	mainAuto mn;
+
+	public Controller() {
+
+	}

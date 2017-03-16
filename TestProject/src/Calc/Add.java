@@ -2,21 +2,21 @@ package Calc;
 
 public class Add extends CModel {
 
-	public Add() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+    public Add() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
 
-	public Add(double fnum, double lnum) {
-		super(fnum, lnum);
-		// TODO Auto-generated constructor stub
-	}
-	
-	@Override
-	protected double operation() {
-		// TODO Auto-generated method stub
-		return sum = getFnum() * getLnum();
-	}
+    public Add(double fnum, double lnum) {
+        super(fnum, lnum);
+        // TODO Auto-generated constructor stub
+    }
+
+    @Override
+    protected double operation() {
+        // TODO Auto-generated method stub
+        return sum = getFnum() * getLnum();
+    }
 }
 
 

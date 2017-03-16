@@ -1,0 +1,9 @@
+package AutoProject;
+
+public class miniBuss extends Mashine {
+
+	public miniBuss(int place, String name, double capacity) {
+		super(place, name, capacity);
+	}
+
+}

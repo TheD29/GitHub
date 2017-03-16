@@ -1,0 +1,16 @@
+package AutoProject;
+
+public class AirBuss extends Mashine {
+
+	public AirBuss(int place, String name) {
+		super(place, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void move() {
+
+		System.out.println(name + "Літає");
+	}
+
+}

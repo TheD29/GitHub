@@ -1,0 +1,11 @@
+package Autorithation;
+
+public class user {
+
+	String firstName;
+	String lastName;
+
+	public class qwerty {
+		private user[] users;
+	}
+}

@@ -1,0 +1,11 @@
+package InClassses;
+
+import InClassses.OuterClass.innerClass;
+
+public class OuterClass {
+	public class innerClass {
+		public void print() {
+			System.out.println("Print Inner class");
+		}
+	}
+}

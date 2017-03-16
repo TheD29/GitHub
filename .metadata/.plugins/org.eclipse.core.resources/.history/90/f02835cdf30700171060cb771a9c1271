@@ -1,0 +1,13 @@
+package AutoProject;
+
+public class BigBuss2 extends Mashine {
+
+	public BigBuss2() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public BigBuss2(int place, String name, double capacity) {
+		super(place, name, capacity);
+	}
+
+}

@@ -2,41 +2,41 @@ package TestProject;
 
 public class Auto {
 
-	private int place;
-	private String name;
-	private int people;
+    private int place;
+    private String name;
+    private int people;
 
-	public Auto() {
-		// TODO Auto-generated constructor stub
-	}
+    public Auto() {
+        // TODO Auto-generated constructor stub
+    }
 
-	public Auto(int p, String n) {
-		this.place = p;
-		this.name = n;
-	}
+    public Auto(int p, String n) {
+        this.place = p;
+        this.name = n;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getPlace() {
-		return place;
-	}
+    public int getPlace() {
+        return place;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setPlace(int place) {
-		this.place = place;
-	}
+    public void setPlace(int place) {
+        this.place = place;
+    }
 
-	public int getPeople() {
-		return people;
-	}
+    public int getPeople() {
+        return people;
+    }
 
-	public void setPeople(int people) {
-		this.people = people;
-	}
+    public void setPeople(int people) {
+        this.people = people;
+    }
 
 }

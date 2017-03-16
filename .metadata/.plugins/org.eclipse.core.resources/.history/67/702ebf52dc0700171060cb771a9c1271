@@ -1,0 +1,12 @@
+package AutoProject;
+
+public class mainAuto {
+	static Auto[] autos = new Auto[] { new Train(150, "Train"), new Car(4, "Car"), new AirBuss(300, "AirBuss"),
+			new miniBuss(8, "miniBuss"), new Buss(18, "Buss"), new BigBuss(55, "BigBuss"),
+			new BigBuss2(55, "BigBuss") };
+
+	public static void main(String[] args) {
+
+	}
+
+}

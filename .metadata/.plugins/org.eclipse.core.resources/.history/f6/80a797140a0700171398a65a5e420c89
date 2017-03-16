@@ -1,0 +1,14 @@
+package TestProject;
+
+public class BBus extends Auto {
+
+	public BBus() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public BBus(int p, String n) {
+		super(p, n);
+		// TODO Auto-generated constructor stub
+	}
+
+}

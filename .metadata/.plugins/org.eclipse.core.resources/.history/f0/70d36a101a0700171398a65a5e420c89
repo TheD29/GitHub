@@ -1,0 +1,8 @@
+package Inter;
+
+import transport.CargoAuto;
+import transport.PassangerAuto;
+
+public class PickUp implements PassangerAuto, CargoAuto {
+
+}

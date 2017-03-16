@@ -1,0 +1,14 @@
+package AutoProject;
+
+public class BigBuss2 extends AutoModel {
+
+	public BigBuss2() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public BigBuss2(int p, String n) {
+		super(p, n);
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package AutoProject;
+
+public abstract interface AutoModel {
+	public void mashineParam();
+
+	public void move();
+
+	public double TrunkCapaCity();
+}

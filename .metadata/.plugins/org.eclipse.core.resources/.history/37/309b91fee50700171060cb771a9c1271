@@ -1,0 +1,13 @@
+package AutoProject;
+
+public class Car extends Mashine {
+
+	public Car() {
+	}
+
+	public Car(int place, String name) {
+		super(place, name);
+
+	}
+
+}

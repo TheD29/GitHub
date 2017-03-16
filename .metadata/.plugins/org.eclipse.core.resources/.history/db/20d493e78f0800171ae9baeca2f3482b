@@ -1,0 +1,11 @@
+package test;
+
+public class tst {
+
+	public static void main(String[] args) {
+		integer i1 = 128;
+		integer i2 = 128;
+		System.out.println(i1 == i2);
+	}
+
+}

@@ -1,0 +1,7 @@
+package AutoProject;
+
+public interface Auto {
+	public void autoParam(int place, String name);
+
+	public void move();
+}

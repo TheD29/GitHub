@@ -1,0 +1,6 @@
+package transport;
+
+public interface PassangerAuto {
+	void transportAuto();
+
+}

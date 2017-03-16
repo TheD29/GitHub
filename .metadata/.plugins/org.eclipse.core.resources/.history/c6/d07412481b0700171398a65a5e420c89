@@ -1,0 +1,12 @@
+package transport;
+
+import Inter.PickUp;
+
+public class main {
+	Truck truck = new Truck();
+	truc
+	Sedan sedan = new Sedan();
+	PickUp pickUp = new PickUp();
+	
+
+}

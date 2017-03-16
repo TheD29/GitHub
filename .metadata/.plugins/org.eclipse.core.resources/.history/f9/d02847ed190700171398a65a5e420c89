@@ -1,0 +1,8 @@
+package transport;
+
+public class Sedan implements PassangerAuto {
+
+	@Override
+	public void transportAuto() {
+	}
+}

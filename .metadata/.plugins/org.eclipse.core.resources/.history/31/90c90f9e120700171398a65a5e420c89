@@ -1,0 +1,8 @@
+package Inter;
+
+public class Dog implements Animal {
+	@Override
+	public void move() {
+		System.out.println("Run");
+	}
+}

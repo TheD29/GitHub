@@ -1,0 +1,16 @@
+package Autorithation;
+
+public class user {
+
+	String firstName;
+	String lastName;
+
+	private user(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+	public class qwerty {
+		private user[] users;
+	}
+}

@@ -1,0 +1,10 @@
+package AutoProject;
+
+public class AirBuss extends AutoModel {
+
+	public AirBuss(int p, String n) {
+		super(p, n);
+		// TODO Auto-generated constructor stub
+	}
+
+}

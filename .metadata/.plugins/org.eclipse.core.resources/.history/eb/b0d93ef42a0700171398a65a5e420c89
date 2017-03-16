@@ -1,0 +1,31 @@
+package Autorithation;
+
+public class user {
+
+	String firstName;
+	String lastName;
+
+	private user(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+	public class qwerty {
+		private user[] users;
+
+		private qwerty() {
+			users = new user[3];
+			users[0] = new user("Dima", "Berezovskyi");
+			users[1] = new user("Dima1", "Berezovskyi2");
+			users[2] = new user("lName", "fName");
+		}
+
+		public user[] getUsers() {
+			return users;
+		}
+	}
+
+	public qwerty createQuerty() {
+		return new qwerty();
+	}
+}

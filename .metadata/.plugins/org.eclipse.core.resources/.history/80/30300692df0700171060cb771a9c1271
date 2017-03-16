@@ -1,0 +1,15 @@
+package AutoProject;
+
+public class mainAuto {
+	static Mashine[] autos = new Mashine[] { new Train(150, "Train"), new AirBuss(300, "AirBuss"),
+			new miniBuss(8, "miniBuss"), new Buss(18, "Buss"), new BigBuss(55, "BigBuss"),
+			new BigBuss2(55, "BigBuss") };
+
+	public static void main(String[] args) {
+		Mashine mashine = new AirBuss(300, "AirBuss");
+		mashine.move();
+		mashine.mashineParam();
+
+	}
+
+}

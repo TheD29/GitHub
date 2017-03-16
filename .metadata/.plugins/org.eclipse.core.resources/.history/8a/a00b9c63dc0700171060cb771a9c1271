@@ -1,0 +1,28 @@
+package AutoProject;
+
+public class Car implements AutoModel {
+	private int place;
+	private String name;
+
+	public Car(int place, String name) {
+		this.place = place;
+		this.name = name;
+	}
+
+	@Override
+	public void autoParam(int place, String name) {
+		System.out.println("К-сть місць: " + place + ' ' + "Вид Авто" + name);
+	}
+
+	@Override
+	public void move() {
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setPlace(int place) {
+		this.place = place;
+	}
+}
