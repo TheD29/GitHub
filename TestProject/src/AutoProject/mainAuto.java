@@ -7,7 +7,7 @@ public class mainAuto {
             new BigBuss(55, "BigBuss", 10), new BigBuss2(55, "BigBuss", 10)};
 
     public static void main(String[] args) {
-
+        int people = 10;
         boolean isCheck = true;
         modelMashine element = autos[0];
         while (isCheck) {
@@ -23,8 +23,27 @@ public class mainAuto {
         }
 
         for (int i = 0; i < autos.length; i++) {
-            System.out.println("К-сть пасажирів: " + autos[i].getPlace() + " Модель: " + autos[i].getName() + " "
-                    + "Вантажо підйомність: " + autos[i].TrunkCapaCity());
+          /*  if (autos[i].getPlace() > people) {
+                System.out.println("Кількість місць не підходить");
+            }else {
+                try {
+                    throw  new MyExeprions();
+                }catch ( MyExeprions myExeprions){
+                    myExeprions.print("Підходить");
+                }
+            }*/
+            try {
+                if (autos[i].getPlace() < people) {
+                    System.out.println("Кількість місць підходить");
+                } else {
+                    throw new MyExeprions();
+                }
+            } catch (MyExeprions myExeprions) {
+                System.out.println("Трабла");
+            }
+            // System.out.println("К-сть пасажирів: " + autos[i].getPlace() + " Модель: " + autos[i].getName() + " "
+            //          + "Вантажо підйомність: " + autos[i].TrunkCapaCity());
+            
         }
 
     }

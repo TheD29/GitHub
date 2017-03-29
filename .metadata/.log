@@ -633,7 +633,7 @@ EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:12.804
-!MESSAGE Connection to http://download.eclipse.org/releases/neon/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/releases/neon/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
@@ -677,7 +677,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:13.242
-!MESSAGE Connection to http://eclipse-color-theme.github.com/update/p2.index failed on eclipse-color-theme.github.com. Retry attempt 0 started
+!MESSAGE Connectionos to http://eclipse-color-theme.github.com/update/p2.index failed on eclipse-color-theme.github.com. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: eclipse-color-theme.github.com
 	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
@@ -721,7 +721,7 @@ java.net.UnknownHostException: eclipse-color-theme.github.com
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:13.663
-!MESSAGE Connection to http://download.eclipse.org/releases/kepler/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/releases/kepler/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -762,7 +762,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:13.945
-!MESSAGE Connection to http://download.eclipse.org/recommenders/updates/stable/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/recommenders/updates/stable/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -784,7 +784,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:14.179
-!MESSAGE Connection to http://download.eclipse.org/recommenders/updates/stable/content.xml.xz failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/recommenders/updates/stable/content.xml.xz failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -828,7 +828,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:14.413
-!MESSAGE Connection to http://download.eclipse.org/eclipse/updates/4.6/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/eclipse/updates/4.6/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -869,7 +869,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:14.695
-!MESSAGE Connection to http://download.eclipse.org/technology/subversive/4.0/update-site/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/technology/subversive/4.0/update-site/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -910,7 +910,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:14.992
-!MESSAGE Connection to http://download.eclipse.org/releases/kepler/201309270900/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/releases/kepler/201309270900/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -951,7 +951,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:15.804
-!MESSAGE Connection to http://download.eclipse.org/webtools/repository/neon/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/webtools/repository/neon/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)
@@ -992,7 +992,7 @@ java.net.UnknownHostException: download.eclipse.org
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
 !ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-02-14 09:02:16.054
-!MESSAGE Connection to http://download.eclipse.org/tools/gef/updates/releases/p2.index failed on download.eclipse.org. Retry attempt 0 started
+!MESSAGE Connectionos to http://download.eclipse.org/tools/gef/updates/releases/p2.index failed on download.eclipse.org. Retry attempt 0 started
 !STACK 0
 java.net.UnknownHostException: download.eclipse.org
 	at java.net.InetAddress.getAllByName0(Unknown Source)

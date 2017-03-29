@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Abstract/Abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassObject/ClassObject.iml" filepath="$PROJECT_DIR$/ClassObject/ClassObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLConn/Connection.iml" filepath="$PROJECT_DIR$/SQLConn/Connection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Extends/Extends.iml" filepath="$PROJECT_DIR$/Extends/Extends.iml" />
       <module fileurl="file://$PROJECT_DIR$/GitHub.iml" filepath="$PROJECT_DIR$/GitHub.iml" />
       <module fileurl="file://$PROJECT_DIR$/Gregorian Calendar/Gregorian Calendar.iml" filepath="$PROJECT_DIR$/Gregorian Calendar/Gregorian Calendar.iml" />
@@ -20,6 +21,7 @@
       <module fileurl="file://$PROJECT_DIR$/MVC/MVC.iml" filepath="$PROJECT_DIR$/MVC/MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadTest/ReadTest.iml" filepath="$PROJECT_DIR$/ReadTest/ReadTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLConn/SQLConn.iml" filepath="$PROJECT_DIR$/SQLConn/SQLConn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestProject/TestProject.iml" filepath="$PROJECT_DIR$/TestProject/TestProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/newdog/newdog.iml" filepath="$PROJECT_DIR$/newdog/newdog.iml" />

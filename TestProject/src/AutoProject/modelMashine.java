@@ -1,6 +1,6 @@
 package AutoProject;
 
-public class modelMashine implements autoInterface {
+public abstract class modelMashine implements autoInterface {
     private int place;
     private String name;
     private double capaCity;
@@ -39,6 +39,10 @@ public class modelMashine implements autoInterface {
 
     public double getCapaCity() {
         return capaCity;
+    }
+    public modelMashine getAuto (int place) throws  MyExeprions {
+        if (getPlace() > place) return this;
+        throw new MyExeprions();
     }
 
 }

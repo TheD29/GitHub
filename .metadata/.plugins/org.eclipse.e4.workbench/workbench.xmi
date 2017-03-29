@@ -2654,7 +2654,7 @@
   <commands xmi:id="_DaAYHwW-EeeSjaY6HqTYeg" elementId="org.eclipse.ui.edit.text.select.lineDown" commandName="Select Line Down" description="Extend the selection to the next line of text" category="_DaBmlQW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaAYIAW-EeeSjaY6HqTYeg" elementId="org.eclipse.jdt.ui.edit.text.java.sort.members" commandName="Sort Members" description="Sort all members using the member order preference" category="_DaCMJAW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaAYIQW-EeeSjaY6HqTYeg" elementId="org.eclipse.ui.edit.text.lowerCase" commandName="To Lower Case" description="Changes the selection to lower case" category="_DaBmlQW-EeeSjaY6HqTYeg"/>
-  <commands xmi:id="_DaAYIgW-EeeSjaY6HqTYeg" elementId="org.eclipse.datatools.connectivity.commands.addprofile" commandName="New Connection Profile Command" description="Command to create a new connection profile" category="_DaCMCgW-EeeSjaY6HqTYeg">
+  <commands xmi:id="_DaAYIgW-EeeSjaY6HqTYeg" elementId="org.eclipse.datatools.connectivity.commands.addprofile" commandName="New Connectionos Profile Command" description="Command to create a new connection profile" category="_DaCMCgW-EeeSjaY6HqTYeg">
     <parameters xmi:id="_DaAYIwW-EeeSjaY6HqTYeg" elementId="org.eclipse.datatools.connectivity.ui.ignoreCategory" name="ignoreCategory"/>
     <parameters xmi:id="_DaAYJAW-EeeSjaY6HqTYeg" elementId="org.eclipse.datatools.connectivity.ui.useSelection" name="useSelection"/>
   </commands>
@@ -3127,7 +3127,7 @@
   <commands xmi:id="_DaBk8AW-EeeSjaY6HqTYeg" elementId="org.eclipse.jpt.dbws.ui.generateDbws" commandName="Generate Database Web Services" category="_DaCMCgW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaBk8QW-EeeSjaY6HqTYeg" elementId="org.eclipse.pde.ui.junitWorkbenchShortcut.debug" commandName="Debug JUnit Plug-in Test" description="Debug JUnit Plug-in Test" category="_DaCMAAW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaBk8gW-EeeSjaY6HqTYeg" elementId="org.eclipse.jdt.ui.correction.extractLocalNotReplaceOccurrences.assist" commandName="Quick Assist - Extract local variable" description="Invokes quick assist and selects 'Extract local variable'" category="_DaCMJAW-EeeSjaY6HqTYeg"/>
-  <commands xmi:id="_DaBk8wW-EeeSjaY6HqTYeg" elementId="org.eclipse.datatools.sqltools.sqleditor.attachProfileAction" commandName="Set Connection Information" category="_DaCMIAW-EeeSjaY6HqTYeg"/>
+  <commands xmi:id="_DaBk8wW-EeeSjaY6HqTYeg" elementId="org.eclipse.datatools.sqltools.sqleditor.attachProfileAction" commandName="Set Connectionos Information" category="_DaCMIAW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaBk9AW-EeeSjaY6HqTYeg" elementId="org.eclipse.egit.ui.RepositoriesToggleBranchHierarchy" commandName="Toggle Branch Representation" category="_DaCMHwW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaBk9QW-EeeSjaY6HqTYeg" elementId="org.eclipse.ltk.ui.refactoring.commands.deleteResources" commandName="Delete Resources" description="Delete the selected resources and notify LTK participants." category="_DaCMIgW-EeeSjaY6HqTYeg"/>
   <commands xmi:id="_DaBk9gW-EeeSjaY6HqTYeg" elementId="org.eclipse.ui.file.print" commandName="Print" description="Print" category="_DaBmmwW-EeeSjaY6HqTYeg"/>
